@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claude-buddy"
+version = "1.0.0"
+description = "Terminal pet companion for Claude Code"
+requires-python = ">=3.10"
+license = "MIT"
+readme = "README.md"
+keywords = ["claude", "claude-code", "terminal", "pet", "tamagotchi"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Environment :: Console",
+]
+
+[project.scripts]
+claude-buddy = "claude_buddy.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+claude_buddy = ["data/*.md"]
