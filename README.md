@@ -11,13 +11,20 @@ pip install git+https://github.com/bobwdmai/claude-buddy.git
 claude-buddy install
 ```
 
+Or without pip:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bobwdmai/claude-buddy/main/install.sh | bash
+```
+
 Then open Claude Code and run `/buddy`.
 
 ## Commands
 
 | Command | Description |
 |---|---|
-| `/buddy` | Show your companion (animated) |
+| `/buddy` | Meet your companion — activates BUDDY MODE for the conversation |
+| `/unbuddy` | Deactivate BUDDY MODE and return to normal behavior |
 | `/buddy card` | Stat card with rarity, species, and all stats |
 | `/buddy pet` | Pet your buddy |
 | `/buddy gallery` | Slideshow of all 18 species |
@@ -26,7 +33,8 @@ Then open Claude Code and run `/buddy`.
 | `/buddy set <species> [rarity] [shiny] [hat]` | Adopt any combination |
 | `/buddy list` | Print all valid species, rarities, and hats |
 | `/buddy rename <name>` | Rename your buddy |
-| `/buddy mute` / `unmute` | Toggle speech bubbles |
+| `/buddy mute` | Toggle speech bubbles off |
+| `/buddy unmute` | Toggle speech bubbles on |
 | `/buddy off` | Hide buddy |
 | `/buddy reset` | Release buddy and start fresh |
 
