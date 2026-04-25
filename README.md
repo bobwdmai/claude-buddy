@@ -7,6 +7,7 @@ Terminal pet companion for [Claude Code](https://claude.ai/code) — Anthropic's
 ## Install
 
 ```bash
+pip install git+https://github.com/bobwdmai/claude-buddy.git                  
 claude-buddy install
 ```
 
