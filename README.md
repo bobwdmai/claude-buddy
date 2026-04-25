@@ -7,7 +7,7 @@ Terminal pet companion for [Claude Code](https://claude.ai/code) — Anthropic's
 ## Install
 
 ```bash
-pip install git+https://github.com/bobwdmai/claude-buddy.git                  
+pip install git+https://github.com/bobwdmai/claude-buddy.git
 claude-buddy install
 ```
 
@@ -41,7 +41,7 @@ Then open Claude Code and run `/buddy`.
 ## Upgrade
 
 ```bash
-pip install --upgrade claude-buddy
+pip install --upgrade git+https://github.com/bobwdmai/claude-buddy.git
 claude-buddy upgrade
 ```
 
@@ -49,5 +49,5 @@ claude-buddy upgrade
 
 ```bash
 claude-buddy uninstall
-pip uninstall claude-buddy
+pip uninstall claude-buddy --yes
 ```
