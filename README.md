@@ -7,7 +7,6 @@ Terminal pet companion for [Claude Code](https://claude.ai/code) — Anthropic's
 ## Install
 
 ```bash
-pip install claude-buddy
 claude-buddy install
 ```
 
